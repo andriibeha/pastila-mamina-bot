@@ -1,5 +1,5 @@
 import Button from "../Button";
-import { useTegegram } from "../../hooks/useTelegram";
+import { useTegegram } from "../hooks/useTelegram";
 
 const Header = () => {
   const { onClose, user } = useTegegram;
